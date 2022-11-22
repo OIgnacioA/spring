@@ -2,13 +2,19 @@ package dependencias;
 
 public class alfonzo {
 
-	Barcelona bar = new Barcelona(); 
+	 private IEquipo equipo; 
 	
+	
+	public alfonzo(IEquipo equipo) {
+		
+	   	this.equipo = equipo;
+		
+	}
+	
+
 	public void mostrarEquipo() {
-		
-		
-		
-	System.out.println ("el equipo es " + bar.Getmostrar() ); 
+
+	equipo.mostrar(); 
 		
 	}
 	

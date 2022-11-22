@@ -1,11 +1,11 @@
 package dependencias;
 
-public class Barcelona {
+public class Barcelona implements IEquipo{
 
 
-		public String Getmostrar() {
+		public void mostrar() {
 			
-			return  "BARCELONA"; 
+			System.out.print("BARCELONA FC"); 
 			
 		}
 	}
